@@ -9,12 +9,9 @@ class NewItem extends Component{
     }
 
     onInputChange = (event) => {
-        // console.log(event);
         this.setState( {
             inputContent: event.target.value
         });
-
-        // console.log(event.target.value);
     }
 
     onAddBtnClick = () => {

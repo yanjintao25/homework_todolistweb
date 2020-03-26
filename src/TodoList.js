@@ -22,11 +22,6 @@ class TodoList extends Component {
     } 
 
     render() {
-        // const todoList = [
-        //     {content: "React practice", done: true},
-        //     {content: "game time", done: false}
-        //   ];
-        
         return  (
             <div>
                 {
